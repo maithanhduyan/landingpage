@@ -7,8 +7,7 @@
         <title>Laravel</title>
 
         <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Cormorant+Garamond:wght@400;500;600" rel="stylesheet">
         <!-- CSS Files -->
         <link href="{{asset('lib/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
         <link href="{{asset('lib/icofont/icofont.min.css')}}" rel="stylesheet">
@@ -28,21 +27,28 @@
     <div class="container d-flex">
 
       <div class="logo mr-auto">
-        <h1 class="text-light"><a href="index.html">Appland</a></h1>
+        <h1 class="text-light"><a href="#header">TayaFood</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="#header">Home</a></li>
-          <li><a href="#features">App Features</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#faq">F.A.Q</a></li>
-          <li><a href="#contact">Contact Us</a></li>
+          <li class="active"><a href="#header">Trang Chủ</a></li>
+          <li><a href="#features">Công Ty</a></li>
+          <li><a href="#gallery">Sản Phẩm</a></li>
+          <li><a href="#pricing">Báo Giá</a></li>
+          <li><a href="#faq">Hỏi-Đáp</a></li>
+          <li><a href="#contact">Liên Hệ</a></li>
 
-          <li class="get-started"><a href="#features">Get Started</a></li>
+          <li><select class="selectpicker countrypicker"></select></li>
+          <li class="nav-item">
+            <language-switcher
+                locale="{{ app()->getLocale() }}"
+                link-en=""
+                link-fr=""
+            ></language-switcher>
+            </li>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -56,7 +62,7 @@
       <div class="row">
         <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
           <div>
-            <h1>App landing page template</h1>
+            <h1 class="slogan">Công Ty Thực Phẩm TAYA Việt Nam</h1>
             <h2>Lorem ipsum dolor sit amet, tota senserit percipitur ius ut, usu et fastidii forensibus voluptatibus. His ei nihil feugait</h2>
             <a href="#" class="download-btn"><i class="bx bxl-play-store"></i> Google Play</a>
             <a href="#" class="download-btn"><i class="bx bxl-apple"></i> App Store</a>
@@ -538,13 +544,13 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact" data-aos="fade-up">
-            <h3>Appland</h3>
+            <h3>TayaFood</h3>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              276/3/66 Mã Lò <br>
+              Quận Tân Phú<br>
+              TP.Hồ Chí Minh, Việt Nam <br><br>
+              <strong>Phone:</strong> +84 989214800<br>
+              <strong>Email:</strong> info@tayafood.com<br>
             </p>
           </div>
 
@@ -588,14 +594,14 @@
 
     <div class="container py-4">
       <div class="copyright">
-        &copy; Copyright <strong><span>Appland</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>TAYAFOOD.COM</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-bootstrap-app-landing-page-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="#">TAYA-IT Department</a>
       </div>
     </div>
   </footer><!-- End Footer -->
