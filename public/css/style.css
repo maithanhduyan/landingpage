@@ -488,7 +488,7 @@ section {
 
 .features .content .icon-box p {
   font-size: 15px;
-  color: #979aa1;
+  color: #525257;
   margin-left: 60px;
 }
 
@@ -711,7 +711,7 @@ section {
 }
 
 .pricing h4 span {
-  color: #bababa;
+  color: #525257;
   font-size: 18px;
   display: block;
 }
@@ -719,7 +719,7 @@ section {
 .pricing ul {
   padding: 0;
   list-style: none;
-  color: #999;
+  color: #525257;
   text-align: left;
   line-height: 20px;
 }
