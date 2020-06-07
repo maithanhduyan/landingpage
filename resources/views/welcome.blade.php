@@ -244,11 +244,11 @@
         </div>
 
         <div class="owl-carousel gallery-carousel" data-aos="fade-up">
-          <a href="{{asset('img/gallery/gallery-1.png')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/muoi_100g.jpg
+          <a href="{{asset('img/gallery/muoi_100g.jpg')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/muoi_100g.jpg
           ')}}" alt=""></a>
-          <a href="{{asset('img/gallery/gallery-2.png')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/ngot_thanh_100g.jpg')}}" alt=""></a>
-          <a href="{{asset('img/gallery/gallery-3.png')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/rong_bien_100g.jpg')}}" alt=""></a>
-          <a href="{{asset('img/gallery/gallery-4.png')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/toi_ot_100g.jpg')}}" alt=""></a>
+          <a href="{{asset('img/gallery/ngot_thanh_100g.jpg')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/ngot_thanh_100g.jpg')}}" alt=""></a>
+          <a href="{{asset('img/gallery/rong_bien_100g.jpg')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/rong_bien_100g.jpg')}}" alt=""></a>
+          <a href="{{asset('img/gallery/toi_ot_100g.jpg')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/toi_ot_100g.jpg')}}" alt=""></a>
         </div>
 
       </div>
