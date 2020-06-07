@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <link rel="icon" href="{{asset('img/logo/Logo-2-100x100.png')}}" sizes="32x32">
         <title>Laravel</title>
 
         <!-- Google Fonts -->
@@ -63,9 +63,8 @@
         <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
           <div>
             <h1 class="slogan">Công Ty Thực Phẩm TAYA Việt Nam</h1>
-            <h2>Lorem ipsum dolor sit amet, tota senserit percipitur ius ut, usu et fastidii forensibus voluptatibus. His ei nihil feugait</h2>
-            <a href="#" class="download-btn"><i class="bx bxl-play-store"></i> Google Play</a>
-            <a href="#" class="download-btn"><i class="bx bxl-apple"></i> App Store</a>
+            <h2>Từ khi bắt đầu thành lập, TAYAFOOD đã cam kết một sứ mệnh là: tạo mắc xích kết nối nhà nông và người tiêu dùng nhằm cung cấp và sử dụng thực phẩm xanh mang tầm quốc tế.</h2>
+            
           </div>
         </div>
         <div class="col-lg-6 d-lg-flex flex-lg-column align-items-stretch order-1 order-lg-2 hero-img" data-aos="fade-up">
@@ -83,8 +82,10 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>App Features</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Về Công Ty</h2>
+          <p>Với đội ngũ lãnh đạo trẻ, năng động. TAYAFOOD muốn đem những món ngon của việt nam giới thiệu cho bạn bè quốc tế. 
+          Đi cùng với thực phẩm ngon thì trên hết đó là thực phẩm phải sạch và an toàn cho sức khỏe. 
+          Vì thế TAYAFOOD luôn đầu tư công nghệ vào quản lý, sản xuất nhằm tạo ra thực phẩm sạch, an toàn.</p>
         </div>
 
         <div class="row no-gutters">
@@ -92,34 +93,41 @@
             <div class="content d-flex flex-column justify-content-center">
               <div class="row">
                 <div class="col-md-6 icon-box" data-aos="fade-up">
-                  <i class="bx bx-receipt"></i>
-                  <h4>Corporis voluptates sit</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                  <i class="bx bx-infinite"></i>
+                  <h4>Mắc xích quan trọng</h4>
+                  <p>Xem chế biến thực phẩm ngon và sạch là giúp kết nối người nông dân và người tiêu dùng tạo ra chuỗi giá trị. 
+                  Điều đó các bên cùng có lợi (win-win) là phương châm làm việc của chúng tôi. </p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                  <i class="bx bx-cube-alt"></i>
-                  <h4>Ullamco laboris nisi</h4>
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                  <i class="bx bx-atom"></i>
+                  <h4>Nghiên cứu & phát triển</h4>
+                  <p>Từ lúc có ý tưởng đến lúc nghiên cứu thực phẩm tạo ra món ngon phù hợp với sức khỏe của mọi người. 
+                  Đây cũng chính là bộ phận không thể thiếu để tạo ra sản phẩm mới.</p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <i class="bx bx-images"></i>
-                  <h4>Labore consequatur</h4>
-                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                  <i class="bx bxs-ship"></i>
+                  <h4>Vươn ra biển lớn</h4>
+                  <p>Cùng với triết lý "Đại dương xanh". Chúng tôi muốn giới thiệu cho bạn bè 5 châu về nông sản Việt.</p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bx bx-shield"></i>
-                  <h4>Beatae veritatis</h4>
-                  <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                  <i class="bx bx-donate-heart"></i>
+                  <h4>Sức khỏe là trên hết</h4>
+                  <p>Việc sử dụng nông sản sạch để đem lại dinh dưỡng và sức khỏe đã có từ hàng ngàn năm. 
+                  Hôm nay với các thiết bị công nghệ chúng tôi có thể theo dõi và kiểm soát.</p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-                  <i class="bx bx-atom"></i>
-                  <h4>Molestiae dolor</h4>
-                  <p>Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte</p>
+                  <i class="bx bx-spa"></i>
+                  <h4>Trách nhiệm xã hội</h4>
+                  <p>Dù doanh nhiệp lớn hay nhỏ thì nhiệm vụ của nó không thể nào xa rời với xã hội được. 
+                  Chúng tôi nhận thấy rằng cung cấp những sản phẩm sạch, an toàn là một trách nhiệm của TAYAFOOD.
+                  Đồng thời cũng là "bàn tay vô hình" đánh thức các doanh nghiệp khác.
+                  </p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
                   <i class="bx bx-id-card"></i>
-                  <h4>Explicabo consectetur</h4>
-                  <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
+                  <h4>Nhân Tố - Con Người</h4>
+                  <p>"Con người là mấu chốt quyết định sự thành bại của một doanh nghiệp". 
+                  Hiểu rõ vấn đề trên TAYAFOOD luôn đảm bảo toàn bộ nhân viên phải đạt được kiến thức về an toàn vệ sinh thực phẩm.</p>
                 </div>
               </div>
             </div>
@@ -231,23 +239,16 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Gallery</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Sản Phẩm</h2>
+          <p>Những sản phẩm hiện tại chúng tôi cung cấp cho khách hàng trong nước và quốc tế.</p>
         </div>
 
         <div class="owl-carousel gallery-carousel" data-aos="fade-up">
-          <a href="{{asset('img/gallery/gallery-1.png')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/gallery-1.png')}}" alt=""></a>
-          <a href="{{asset('img/gallery/gallery-2.png')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/gallery-2.png')}}" alt=""></a>
-          <a href="{{asset('img/gallery/gallery-3.png')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/gallery-3.png')}}" alt=""></a>
-          <a href="{{asset('img/gallery/gallery-4.png')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/gallery-4.png')}}" alt=""></a>
-          <a href="{{asset('img/gallery/gallery-5.png')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/gallery-5.png')}}" alt=""></a>
-          <a href="{{asset('img/gallery/gallery-6.png')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/gallery-6.png')}}" alt=""></a>
-          <a href="{{asset('img/gallery/gallery-7.png')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/gallery-7.png')}}" alt=""></a>
-          <a href="{{asset('img/gallery/gallery-8.png')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/gallery-8.png')}}" alt=""></a>
-          <a href="{{asset('img/gallery/gallery-9.png')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/gallery-9.png')}}" alt=""></a>
-          <a href="{{asset('img/gallery/gallery-10.png')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/gallery-10.png')}}" alt=""></a>
-          <a href="{{asset('img/gallery/gallery-11.png')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/gallery-11.png')}}" alt=""></a>
-          <a href="{{asset('img/gallery/gallery-12.png')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/gallery-12.png')}}" alt=""></a>
+          <a href="{{asset('img/gallery/gallery-1.png')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/muoi_100g.jpg
+          ')}}" alt=""></a>
+          <a href="{{asset('img/gallery/gallery-2.png')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/ngot_thanh_100g.jpg')}}" alt=""></a>
+          <a href="{{asset('img/gallery/gallery-3.png')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/rong_bien_100g.jpg')}}" alt=""></a>
+          <a href="{{asset('img/gallery/gallery-4.png')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/toi_ot_100g.jpg')}}" alt=""></a>
         </div>
 
       </div>
