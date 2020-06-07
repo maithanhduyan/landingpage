@@ -93,6 +93,15 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 40px;
 }
 
+#header .logo .logo-text{
+  font-size: x-large;
+}
+#header .logo .slogan{
+  font-size: x-small;
+  color: #090910;
+  padding-left: 40px;
+}
+
 @media (max-width: 992px) {
   #header {
     background: rgba(255, 255, 255, 0.95);

@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" href="{{asset('img/logo/Logo-2-100x100.png')}}" sizes="32x32">
-        <title>Laravel</title>
 
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Cormorant+Garamond:wght@400;500;600" rel="stylesheet">
-        <!-- CSS Files -->
-        <link href="{{asset('lib/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
-        <link href="{{asset('lib/icofont/icofont.min.css')}}" rel="stylesheet">
-        <link href="{{asset('lib/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
-        <link href="{{asset('lib/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
-        <link href="{{asset('lib/venobox/venobox.css')}}" rel="stylesheet">
-        <link href="{{asset('lib/aos/aos.css')}}" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="{{asset('img/logo/Logo-2-100x100.png')}}" sizes="32x32">
+  <title>Laravel</title>
 
-        <!-- Theme Styles -->
-        <link rel="stylesheet" href="{{asset('css/style.css')}}">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Cormorant+Garamond:wght@400;500;600" rel="stylesheet">
+  <!-- CSS Files -->
+  <link href="{{asset('lib/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+  <link href="{{asset('lib/icofont/icofont.min.css')}}" rel="stylesheet">
+  <link href="{{asset('lib/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
+  <link href="{{asset('lib/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+  <link href="{{asset('lib/venobox/venobox.css')}}" rel="stylesheet">
+  <link href="{{asset('lib/aos/aos.css')}}" rel="stylesheet">
 
-    </head>
-    <body>
+  <!-- Theme Styles -->
+  <link rel="stylesheet" href="{{asset('css/style.css')}}">
+
+</head>
+
+<body>
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex">
 
       <div class="logo mr-auto">
-        <h1 class="text-light"><a href="#header">TayaFood</a></h1>
+        <div class="text-light"><img alt="Logo" src="{{asset('img/logo/Logo-2-100x100.png')}}">&nbsp;<a href="#" class="logo-text">TayaFood</a></div>
+        <div class="slogan">ready to eat, ready to use</div>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -41,14 +44,15 @@
           <li><a href="#faq">Hỏi-Đáp</a></li>
           <li><a href="#contact">Liên Hệ</a></li>
 
-          <li><select class="selectpicker countrypicker"></select></li>
+          <li>
+            <a href="#"><img alt="Vietnamese" src="{{asset('img/country-flags/vietnam-flag-icon-32.png')}}"></a>
+          </li>
+          <li>
+            <a href="#"><img alt="English" src="{{asset('img/country-flags/united-states-of-america-flag-icon-32.png')}}"></a>
+          </li>
           <li class="nav-item">
-            <language-switcher
-                locale="{{ app()->getLocale() }}"
-                link-en=""
-                link-fr=""
-            ></language-switcher>
-            </li>
+            <language-switcher locale="{{ app()->getLocale() }}" link-en="" link-fr=""></language-switcher>
+          </li>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -64,7 +68,6 @@
           <div>
             <h1 class="slogan">Công Ty Thực Phẩm TAYA Việt Nam</h1>
             <h2>Từ khi bắt đầu thành lập, TAYAFOOD đã cam kết một sứ mệnh là: tạo mắc xích kết nối nhà nông và người tiêu dùng nhằm cung cấp và sử dụng thực phẩm xanh mang tầm quốc tế.</h2>
-            
           </div>
         </div>
         <div class="col-lg-6 d-lg-flex flex-lg-column align-items-stretch order-1 order-lg-2 hero-img" data-aos="fade-up">
@@ -83,9 +86,9 @@
 
         <div class="section-title">
           <h2>Về Công Ty</h2>
-          <p>Với đội ngũ lãnh đạo trẻ, năng động. TAYAFOOD muốn đem những món ngon của việt nam giới thiệu cho bạn bè quốc tế. 
-          Đi cùng với thực phẩm ngon thì trên hết đó là thực phẩm phải sạch và an toàn cho sức khỏe. 
-          Vì thế TAYAFOOD luôn đầu tư công nghệ vào quản lý, sản xuất nhằm tạo ra thực phẩm sạch, an toàn.</p>
+          <p>Với đội ngũ lãnh đạo trẻ, năng động. TAYAFOOD muốn đem những món ngon của việt nam giới thiệu cho bạn bè quốc tế.
+            Đi cùng với thực phẩm ngon thì trên hết đó là thực phẩm phải sạch và an toàn cho sức khỏe.
+            Vì thế TAYAFOOD luôn đầu tư công nghệ vào quản lý, sản xuất nhằm tạo ra thực phẩm sạch, an toàn.</p>
         </div>
 
         <div class="row no-gutters">
@@ -95,14 +98,14 @@
                 <div class="col-md-6 icon-box" data-aos="fade-up">
                   <i class="bx bx-infinite"></i>
                   <h4>Mắc xích quan trọng</h4>
-                  <p>Xem chế biến thực phẩm ngon và sạch là giúp kết nối người nông dân và người tiêu dùng tạo ra chuỗi giá trị. 
-                  Điều đó các bên cùng có lợi (win-win) là phương châm làm việc của chúng tôi. </p>
+                  <p>Xem chế biến thực phẩm ngon và sạch là giúp kết nối người nông dân và người tiêu dùng tạo ra chuỗi giá trị.
+                    Điều đó các bên cùng có lợi (win-win) là phương châm làm việc của chúng tôi. </p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
                   <i class="bx bx-atom"></i>
                   <h4>Nghiên cứu & phát triển</h4>
-                  <p>Từ lúc có ý tưởng đến lúc nghiên cứu thực phẩm tạo ra món ngon phù hợp với sức khỏe của mọi người. 
-                  Đây cũng chính là bộ phận không thể thiếu để tạo ra sản phẩm mới.</p>
+                  <p>Từ lúc có ý tưởng đến lúc nghiên cứu thực phẩm tạo ra món ngon phù hợp với sức khỏe của mọi người.
+                    Đây cũng chính là bộ phận không thể thiếu để tạo ra sản phẩm mới.</p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
                   <i class="bx bxs-ship"></i>
@@ -112,22 +115,22 @@
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
                   <i class="bx bx-donate-heart"></i>
                   <h4>Sức khỏe là trên hết</h4>
-                  <p>Việc sử dụng nông sản sạch để đem lại dinh dưỡng và sức khỏe đã có từ hàng ngàn năm. 
-                  Hôm nay với các thiết bị công nghệ chúng tôi có thể theo dõi và kiểm soát.</p>
+                  <p>Việc sử dụng nông sản sạch để đem lại dinh dưỡng và sức khỏe đã có từ hàng ngàn năm.
+                    Hôm nay với các thiết bị công nghệ chúng tôi có thể theo dõi và kiểm soát.</p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
                   <i class="bx bx-spa"></i>
                   <h4>Trách nhiệm xã hội</h4>
-                  <p>Dù doanh nhiệp lớn hay nhỏ thì nhiệm vụ của nó không thể nào xa rời với xã hội được. 
-                  Chúng tôi nhận thấy rằng cung cấp những sản phẩm sạch, an toàn là một trách nhiệm của TAYAFOOD.
-                  Đồng thời cũng là "bàn tay vô hình" đánh thức các doanh nghiệp khác.
+                  <p>Dù doanh nhiệp lớn hay nhỏ thì nhiệm vụ của nó không thể nào xa rời với xã hội được.
+                    Chúng tôi nhận thấy rằng cung cấp những sản phẩm sạch, an toàn là một trách nhiệm của TAYAFOOD.
+                    Đồng thời cũng là "bàn tay vô hình" đánh thức các doanh nghiệp khác.
                   </p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
                   <i class="bx bx-id-card"></i>
                   <h4>Nhân Tố - Con Người</h4>
-                  <p>"Con người là mấu chốt quyết định sự thành bại của một doanh nghiệp". 
-                  Hiểu rõ vấn đề trên TAYAFOOD luôn đảm bảo toàn bộ nhân viên phải đạt được kiến thức về an toàn vệ sinh thực phẩm.</p>
+                  <p>"Con người là mấu chốt quyết định sự thành bại của một doanh nghiệp".
+                    Hiểu rõ vấn đề trên TAYAFOOD luôn đảm bảo toàn bộ nhân viên phải đạt được kiến thức về an toàn vệ sinh thực phẩm.</p>
                 </div>
               </div>
             </div>
@@ -244,8 +247,7 @@
         </div>
 
         <div class="owl-carousel gallery-carousel" data-aos="fade-up">
-          <a href="{{asset('img/gallery/muoi_100g.jpg')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/muoi_100g.jpg
-          ')}}" alt=""></a>
+          <a href="{{asset('img/gallery/muoi_100g.jpg')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/muoi_100g.jpg')}}" alt=""></a>
           <a href="{{asset('img/gallery/ngot_thanh_100g.jpg')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/ngot_thanh_100g.jpg')}}" alt=""></a>
           <a href="{{asset('img/gallery/rong_bien_100g.jpg')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/rong_bien_100g.jpg')}}" alt=""></a>
           <a href="{{asset('img/gallery/toi_ot_100g.jpg')}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset('img/gallery/toi_ot_100g.jpg')}}" alt=""></a>
@@ -340,49 +342,46 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Pricing</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Báo giá</h2>
+          <p>Quí khách vui lòng nhấn đặt hàng để chúng tôi cung cấp giá mới nhất.</p>
         </div>
 
         <div class="row no-gutters">
 
           <div class="col-lg-4 box" data-aos="fade-right">
-            <h3>Free</h3>
-            <h4>$0<span>per month</span></h4>
+            <h3>Cỡ lô mini</h3>
+            <h4>50-99 Kg<span>/ lô</span></h4>
             <ul>
-              <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-              <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-              <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-              <li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li>
-              <li class="na"><i class="bx bx-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+              <li><i class="bx bx-check"></i> Phù hợp với đối tác bán lẻ</li>
+              <li><i class="bx bx-check"></i> Giao hàng linh hoạt</li>
+              <li><i class="bx bx-check"></i> Trên toàn lãnh thổ Việt Nam</li>
+              <li><i class="bx bx-check"></i> <span>Phí ship tùy vào địa lý</span></li>
+              <li><i class="bx bx-check"></i> <span>Hỗ trợ thanh toán </span></li>
             </ul>
-            <a href="#" class="get-started-btn">Get Started</a>
+            <a href="#" class="get-started-btn">Đặt hàng</a>
           </div>
 
           <div class="col-lg-4 box featured" data-aos="fade-up">
-            <h3>Business</h3>
-            <h4>$29<span>per month</span></h4>
+            <h3>Cỡ lô medium</h3>
+            <h4>100-299 Kg<span>/ lô</span></h4>
             <ul>
-              <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-              <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-              <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-              <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-              <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+              <li><i class="bx bx-check"></i> Phù hợp với đối tác bán sỉ & lẻ</li>
+              <li><i class="bx bx-check"></i> Giao hàng miễn phí 200 Km</li>
+              <li><i class="bx bx-check"></i> Trên toàn lãnh thổ Việt Nam</li>
+              <li><i class="bx bx-check"></i> Ship tất cả các nước Đông Nam Á</li>
             </ul>
-            <a href="#" class="get-started-btn">Get Started</a>
+            <a href="#" class="get-started-btn">Đặt hàng</a>
           </div>
 
           <div class="col-lg-4 box" data-aos="fade-left">
-            <h3>Developer</h3>
-            <h4>$49<span>per month</span></h4>
+            <h3>Cỡ lô maxi</h3>
+            <h4>300-500 Kg<span>/ lô</span></h4>
             <ul>
-              <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-              <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-              <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-              <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-              <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+              <li><i class="bx bx-check"></i> Phù hợp với đối tác bán sỉ</li>
+              <li><i class="bx bx-check"></i> Giao hàng trong vòng 7-15 ngày làm việc</li>
+              <li><i class="bx bx-check"></i> Ship tất cả các nước</li>
             </ul>
-            <a href="#" class="get-started-btn">Get Started</a>
+            <a href="#" class="get-started-btn">Đặt hàng</a>
           </div>
 
         </div>
@@ -396,53 +395,53 @@
 
         <div class="section-title">
 
-          <h2>Frequently Asked Questions</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Câu hỏi thường gặp</h2>
+          <p>Hiện tại chúng tôi dành thời gian trả lời các câu hỏi định kỳ mỗi tuần làm việc. Để giúp các đối tác chủ động thời gian xem xét các câu hỏi đã có sẵn.</p>
         </div>
 
         <div class="accordion-list">
           <ul>
             <li data-aos="fade-up">
-              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" class="collapse" href="#accordion-list-1">Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" class="collapse" href="#accordion-list-1">TAYAFOOD có bán hàng online hay không ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="accordion-list-1" class="collapse show" data-parent=".accordion-list">
                 <p>
-                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                  Trả lời: Trước đây chúng tôi có vận hành hệ thống bán hàng online. Bây giờ chúng tôi chuyển qua cho các đối tác. Để tập trung nâng cao chất lượng sản phẩm.
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#accordion-list-2" class="collapsed">Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#accordion-list-2" class="collapsed">Nếu tôi đặt hàng cỡ lô maxi giao hàng qua Thái Lan TAYAFOOD có ship không ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="accordion-list-2" class="collapse" data-parent=".accordion-list">
                 <p>
-                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  Trả lời: Cảm ơn bạn đã tin tưởng. Trong điều kiện cỡ lô nhỏ xuất ra các nước Đông Nam Á quí khách vui lòng chịu chi phí hải quan. Chân thành cảm ơn.
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#accordion-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#accordion-list-3" class="collapsed">Nếu tôi đặt hàng 500 Kg và yêu cầu TAYAFOOD làm theo khẩu vị của tôi có được không ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="accordion-list-3" class="collapse" data-parent=".accordion-list">
                 <p>
-                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                  Trả lời: 500 Kg là cỡ lô maxi sẽ có giá ưu đãi cho đối tác bán sỉ. Còn về khẩu vị hiện chúng tôi chưa có chính sách để tùy khách hàng chọn. Vì một số yêu cầu đăng ký hàng hóa và thủ tục pháp lý. Nếu quí khách có yêu cầu về mặt khẩu vị vui lòng gửi mail góp ý cho chúng tôi tại support@tayafood.com. Chân thành cảm ơn.
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#accordion-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#accordion-list-4" class="collapsed">Thủ tục đặt hàng của TAYAFOOD như thế nào? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="accordion-list-4" class="collapse" data-parent=".accordion-list">
                 <p>
-                  Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+                  Trả lời: Quý khách gửi mail đặt hàng. Bộ phận bán hàng của chúng tôi sẽ liên lạc sẽ xác nhận và tiến hành sản xuất từ 3 -7 ngày làm việc. Vì là hàng không có sẵn nên quá trình này có thể mất chút thời gian.
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="400">
-              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#accordion-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#accordion-list-5" class="collapsed">TAYAFOOD có chi nhánh nào ở nước ngoài? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="accordion-list-5" class="collapse" data-parent=".accordion-list">
                 <p>
-                  Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                  Trả lời: Hiện tại TAYAFOOD chưa thiết lập văn phòng đại diện tại nước ngoài. Chúng tôi cũng có kế hoạch trong tương lai. Và sẽ gửi qua mail thông báo cho khách hàng.
                 </p>
               </div>
             </li>
@@ -458,8 +457,8 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Liên Lạc</h2>
+          <p>Để biết thêm nhiều thông tin đặt hàng, chính sách đại lý, đối tác vui lòng liên lạc theo địa chỉ chính thức của chúng tôi.</p>
         </div>
 
         <div class="row">
@@ -468,23 +467,23 @@
             <div class="row">
               <div class="col-lg-6 info" data-aos="fade-up">
                 <i class="bx bx-map"></i>
-                <h4>Address</h4>
-                <p>A108 Adam Street,<br>New York, NY 535022</p>
+                <h4>Địa Chỉ</h4>
+                <p>276/3/66 Mã Lò<br>TP. Hồ Chí Minh, Việt Nam</p>
               </div>
               <div class="col-lg-6 info" data-aos="fade-up" data-aos-delay="100">
                 <i class="bx bx-phone"></i>
-                <h4>Call Us</h4>
-                <p>+1 5589 55488 55<br>+1 5589 22548 64</p>
+                <h4>Điện Thoại</h4>
+                <p>+84 989214800<br>+84 934040664</p>
               </div>
               <div class="col-lg-6 info" data-aos="fade-up" data-aos-delay="200">
                 <i class="bx bx-envelope"></i>
-                <h4>Email Us</h4>
-                <p>contact@example.com<br>info@example.com</p>
+                <h4>Email</h4>
+                <p>contact@tayafood.com<br>info@tayafood.com</p>
               </div>
               <div class="col-lg-6 info" data-aos="fade-up" data-aos-delay="300">
                 <i class="bx bx-time-five"></i>
-                <h4>Working Hours</h4>
-                <p>Mon - Fri: 9AM to 5PM<br>Sunday: 9AM to 1PM</p>
+                <h4>Giờ Làm Việc</h4>
+                <p>Thứ 2 - Thứ 6: 8AM to 5PM<br>Thứ 7: 9AM to 1PM</p>
               </div>
             </div>
           </div>
@@ -512,7 +511,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">Gửi</button></div>
             </form>
           </div>
 
@@ -530,10 +529,10 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <h4>Nhận thông báo từ TAYAFOOD</h4>
+            <p>Thông tin về các sản phẩm, hoạt động của TAYAFOOD</p>
             <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
+              <input type="email" name="email"><input type="submit" value="Đăng Ký">
             </form>
           </div>
         </div>
@@ -559,27 +558,27 @@
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Công Ty</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Dịch Vụ</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Điều khoản dịch vụ</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Chính sách bảo mật</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links" data-aos="fade-up" data-aos-delay="200">
-            <h4>Our Services</h4>
+            <h4>Dịch vụ</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Sản Xuất</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Giao Vận</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Kho Bãi</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Phân Phối</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Thiết kế</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links" data-aos="fade-up" data-aos-delay="300">
-            <h4>Our Social Networks</h4>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <h4>Mạng Xã Hội</h4>
+            <p>Kết nối với TAYAFOOD qua các kênh của bạn</p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
               <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
