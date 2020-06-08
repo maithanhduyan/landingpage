@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Noto Serif', serif;
   color: #525257;
 }
 
@@ -23,7 +23,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Noto Serif', serif;
 }
 
 /*--------------------------------------------------------------
@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo h1 a, #header .logo h1 a:hover {
   color: #FF2D20;
   text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 #header .logo img {
@@ -375,7 +375,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1.slogan{
-    font-family: 'Cormorant Garamond', serif !important;
+    font-family: 'Oswald', serif !important;
 }
 
 #hero .download-btn {
@@ -465,7 +465,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 0;
   color: #FF2D20;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Noto Serif', serif;
 }
 
 .section-title p {

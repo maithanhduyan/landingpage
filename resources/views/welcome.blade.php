@@ -5,10 +5,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="{{asset('img/logo/Logo-2-100x100.png')}}" sizes="32x32">
-  <title>Laravel</title>
+  <title>TAYAFOOD</title>
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Cormorant+Garamond:wght@400;500;600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
   <!-- CSS Files -->
   <link href="{{asset('lib/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
   <link href="{{asset('lib/icofont/icofont.min.css')}}" rel="stylesheet">
@@ -66,7 +68,7 @@
       <div class="row">
         <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
           <div>
-            <h1 class="slogan">Công Ty Thực Phẩm TAYA Việt Nam</h1>
+            <h1 class="slogan">CÔNG TY THỰC PHẨM TAYA VIỆT NAM</h1>
             <h2>Từ khi bắt đầu thành lập, TAYAFOOD đã cam kết một sứ mệnh là: tạo mắc xích kết nối nhà nông và người tiêu dùng nhằm cung cấp và sử dụng thực phẩm xanh mang tầm quốc tế.</h2>
           </div>
         </div>
@@ -152,19 +154,19 @@
             <img src="{{asset('img/details-1.png')}}" class="img-fluid" alt="">
           </div>
           <div class="col-md-8 pt-4" data-aos="fade-up">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <h3>Định hướng phát triển doanh nghiệp</h3>
             <p class="font-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              Công ty tập trung trí tuệ và sức lực nắm bắt thời cơ, đổi mới nhận thức, khai thác tối đa các nguồn vốn, mạnh dạn đầu tư thiết bị, con người, ứng dụng công nghệ tiên tiến vào sản xuất kinh doanh; xây dựng Công ty trở thành một doanh nghiệp phát triển mạnh toàn diện.
             </p>
             <ul>
-              <li><i class="icofont-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="icofont-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="icofont-check"></i> Iure at voluptas aspernatur dignissimos doloribus repudiandae.</li>
-              <li><i class="icofont-check"></i> Est ipsa assumenda id facilis nesciunt placeat sed doloribus praesentium.</li>
+              <li><i class="icofont-check"></i> Về sản phẩm.</li>
+              <li><i class="icofont-check"></i> Về thị trường.</li>
+              <li><i class="icofont-check"></i> Về khoa học công nghệ.</li>
+              <li><i class="icofont-check"></i> Về đầu tư.</li>
+              <li><i class="icofont-check"></i> Về tài chính.</li>
             </ul>
             <p>
-              Voluptas nisi in quia excepturi nihil voluptas nam et ut. Expedita omnis eum consequatur non. Sed in asperiores aut repellendus. Error quisquam ab maiores. Quibusdam sit in officia
+              Quản lý chặt chẽ chi phí, đảm bảo sử dụng nguồn vốn có hiệu quả; nâng cao năng lực tài chính, đảm bảo phát triển liên tục, ổn định, vững chắc.
             </p>
           </div>
         </div>
@@ -174,18 +176,18 @@
             <img src="{{asset('img/details-2.png')}}" class="img-fluid" alt="">
           </div>
           <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
-            <h3>Corporis temporibus maiores provident</h3>
+            <h3>Trở thành đối tác tin cậy trong chuỗi cung ứng</h3>
             <p class="font-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              Quản trị chuỗi cung ứng SCM có tác động rất lớn đến sự tín nhiệm của khách hàng, chiếm lĩnh thị trường, khả năng vươn xa của doanh nghiệp.
+              Chuỗi cung ứng cũng là một trong các yếu tố quyết định khả năng cạnh tranh của một DN so với đối thủ cùng ngành.
             </p>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
+              Chuỗi cung ứng của một công ty bắt đầu từ nhà máy sản xuất cho đến khi hàng hoá được giao đến tay khách hàng. Và chiến lược chuỗi cung ứng (Supply Chain Strategy) sẽ quyết định khi nào sản phẩm phải được chế tạo, vận chuyển đến các trung tâm phân phối và các kênh bán lẻ. Chiến lược nhắc tới ở đây chính là chiến lược “Kéo” và “Đẩy”, doanh nghiệp nên sử dụng hai chiến lược này như thế nào để có thể tối ưu hoá các nguồn lực đạt hiệu quả cao nhất
+              Trước tiên chúng ta cần hiểu thế nào cho đúng về chiến lược “Đẩy” và “Kéo” trong hoạt động sản xuất.
             </p>
             <p>
-              Inventore id enim dolor dicta qui et magni molestiae. Mollitia optio officia illum ut cupiditate eos autem. Soluta dolorum repellendus repellat amet autem rerum illum in. Quibusdam occaecati est nisi esse. Saepe aut dignissimos distinctio id enim.
+              Trên thực tế khi nhìn vào cả chuỗi cung ứng, thì hầu hết doanh nghiệp sẽ kết hợp cả hai chiến lược Đẩy và Kéo để điều phối hoạt động sản xuất được diễn ra hiệu quả nhất. Điểm mà chuỗi cung ứng của bạn chuyển từ Đẩy sang Kéo hay ngược lại được gọi là Danh giới Đẩy, Kéo, hoặc Điểm Đẩy/Kéo. Đó là điểm mà bạn sản xuất hàng hóa của bạn dựa trên nhu cầu mà bạn hiện thực hóa nó thành nhu cầu thật sự. Ví dụ như một doanh nghiệp sẽ dự trữ sản phẩm tại các trung tâm phân phối của nó và chờ đến khi nhận được đơn đặt hàng từ khách hàng thì họ tiến hành giao sản phẩm.
+              Và để có thể quản lý cả chuỗi cung ứng hoạt động hiệu quả thì cũng như việc tương tác thực hiện các chiến lược cung ứng sản xuất diễn ra tốt đẹp, TAYADOOD sử dụng thêm công cụ phần mềm quản lý cung ứng vào thực tế. Phần mềm quản lý chuỗi cung ứng của TAYA-SCM hỗ trợ rất tốt cho khâu quản lý cung ứng.
             </p>
           </div>
         </div>
@@ -195,18 +197,20 @@
             <img src="{{asset('img/details-3.png')}}" class="img-fluid" alt="">
           </div>
           <div class="col-md-8 pt-5" data-aos="fade-up">
-            <h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>
-            <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
+            <h3>Tận dụng xu hướng công nghệ </h3>
+            <p>CMCN 4.0 với xu hướng phát triển dựa trên nền tảng tích hợp cao độ của hệ thống kết nối số hóa - vật lý - sinh học với sự đột phá của Internet vạn vật và Trí tuệ nhân tạo, đã và đang diễn ra với tốc độ khác nhau tại các quốc gia trên thế giới, tạo ra những tác động mạnh mẽ, ngày một gia tăng tới mọi mặt của đời sống kinh tế - xã hội, dẫn đến việc thay đổi phương thức và lực lượng sản xuất của xã hội.
+
+              CMCN 4.0 có thể tạo ra lợi thế của những nước đi sau như Việt Nam so các nước phát triển do không bị hạn chế bởi quy mô cồng kềnh, quán tính lớn; tạo điều kiện cho Việt Nam bứt phá nhanh chóng, vượt qua các quốc gia khác cho dù xuất phát sau.</p>
             <ul>
-              <li><i class="icofont-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="icofont-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="icofont-check"></i> Facilis ut et voluptatem aperiam. Autem soluta ad fugiat.</li>
+              <li><i class="icofont-check"></i> Tập trung vào đào tạo nhân lực để bắt kịp công nghệ mới.</li>
+              <li><i class="icofont-check"></i> Tận dụng sự phát triển của thị trường trực tuyến.</li>
+              <li><i class="icofont-check"></i> Tận dụng sự phát triển các dịch vụ phần mềm, logictics...</li>
             </ul>
             <p>
-              Qui consequatur temporibus. Enim et corporis sit sunt harum praesentium suscipit ut voluptatem. Et nihil magni debitis consequatur est.
+              Tăng cường hợp tác công tư trong triển khai các dự án công nghệ quy mô lớn và hỗ trợ khởi nghiệp sáng tạo.
             </p>
             <p>
-              Suscipit enim et. Ut optio esse quidem quam reiciendis esse odit excepturi. Vel dolores rerum soluta explicabo vel fugiat eum non.
+              Giữ tâm thế doanh nghiệp lúc nào cũng ở vị trí khởi nghiệp tinh gọn.
             </p>
           </div>
         </div>
@@ -216,20 +220,17 @@
             <img src="{{asset('img/details-4.png')}}" class="img-fluid" alt="">
           </div>
           <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
-            <h3>Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h3>
+            <h3>Sản phẩm chất lượng cao là động lực tăng trưởng</h3>
             <p class="font-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              Trong 10 năm gần đây Việt Nam có những chuyển biến mạnh về xuất khẩu, từ nguyên liệu thô, nông sản thô san phát triển các ngành chế biến mạnh mẽ. Nhìn chung ngành chế biến Việt Nam đầu tư ít chất xám và chưa thật sự thấu hiểu thị trường.
             </p>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
+              TAYADOOD quyết tâm mạnh mẽ tạo một sản phẩm làm thương hiệu quốc gia:
             </p>
             <ul>
-              <li><i class="icofont-check"></i> Et praesentium laboriosam architecto nam .</li>
-              <li><i class="icofont-check"></i> Eius et voluptate. Enim earum tempore aliquid. Nobis et sunt consequatur. Aut repellat in numquam velit quo dignissimos et.</li>
-              <li><i class="icofont-check"></i> Facilis ut et voluptatem aperiam. Autem soluta ad fugiat.</li>
+              <li><i class="icofont-check"></i> Luôn giữ vững, nâng cao chất lượng.</li>
+              <li><i class="icofont-check"></i> Đổi mới sáng tạo qua từng sản phẩm.</li>
+              <li><i class="icofont-check"></i> Luôn giữ sản phẩm ở mức đẹp và chất lượng.</li>
             </ul>
           </div>
         </div>
@@ -261,7 +262,7 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Testimonials</h2>
+          <h2>Vài lời tâm quyết của ban lãnh đạo.</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
@@ -270,11 +271,11 @@
           <div class="testimonial-wrap">
             <div class="testimonial-item">
               <img src="{{asset('img/testimonials/testimonials-1.jpg')}}" class="testimonial-img" alt="">
-              <h3>Saul Goodman</h3>
+              <h3>MTTA</h3>
               <h4>Ceo &amp; Founder</h4>
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                Lấy cảm hứng từ những lần đi du lịch nước ngoài. Được thưỡng thức các món ăn làm từ nguyên liệu của Việt Nam. Chúng tôi tự hỏi: "đã có nguyên liệu rồi chỉ cần đầu bếp mà thôi". Thế là TAYAFOOD ra đời.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
             </div>
