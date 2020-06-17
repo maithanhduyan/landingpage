@@ -469,7 +469,7 @@
               <div class="col-lg-6 info" data-aos="fade-up">
                 <i class="bx bx-map"></i>
                 <h4>Địa Chỉ</h4>
-                <p>276/3/66 Mã Lò<br>TP. Hồ Chí Minh, Việt Nam</p>
+                <p>276/3/66 Mã Lò,<br> Phường Bình Trị Đông, Quận Bình Tân, <br>TP. Hồ Chí Minh, Việt Nam</p>
               </div>
               <div class="col-lg-6 info" data-aos="fade-up" data-aos-delay="100">
                 <i class="bx bx-phone"></i>
@@ -548,7 +548,7 @@
             <h3>TayaFood</h3>
             <p>
               276/3/66 Mã Lò <br>
-              Quận Tân Phú<br>
+              Phường Bình Trị Đông, Quận Bình Tân<br>
               TP.Hồ Chí Minh, Việt Nam <br><br>
               <strong>Phone:</strong> +84 989214800<br>
               <strong>Email:</strong> info@tayafood.com<br>
@@ -556,7 +556,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links" data-aos="fade-up" data-aos-delay="100">
-            <h4>Useful Links</h4>
+            <h4>Liên Kết</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Công Ty</a></li>
